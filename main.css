@@ -1,0 +1,93 @@
+body {
+    background-color: #efdbda;
+}
+
+#nav {
+    background-color: #FFEAD4;
+    font-family: 'Monoton', cursive;
+    font-size: 16px;
+    margin: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+#nav li {
+    background-color: #FFEAD4;
+    display: inline;
+    list-style-type: none;
+    padding-right: 60px;
+}
+
+a {
+    color: #bf8974;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e88980;
+}
+
+#semi-circle1 {
+    position: relative;
+    top: 250px;
+    left: 500px;
+    width: 80px;
+    height: 120px;
+    border: 5px;
+    border-color: #FFEAD4;
+}
+
+#semi-circle2 {
+    position: relative;
+    top: 300px;
+    left: 350px;
+    width: 80px;
+    height: 120px;
+    border: 5px;
+    border-color: #FFEAD4;
+}
+
+#semi-circle3 {
+    position: relative;
+    top: 350px;
+    left: 500px;
+    width: 80px;
+    height: 120px;
+    border: 5px;
+    border-color: #FFEAD4;
+}
+
+header {
+    color: #9e7855;
+    font-family: 'Poiret One', cursive;
+    position: absolute;
+    top: 385px;
+    right: 300px;
+    width: 400px;
+    height: 100px;
+}
+
+#bio {
+    color: #93795d;
+    font-family: 'Poiret One', cursive;
+    position: absolute;
+    top: 1000px;
+    left: 150px;
+    width: 75%;
+    height: 100px;
+}
+
+#climbing-app{
+    position: absolute;
+    top: 1400px;
+    left: 150px;
+    color: #9e7855;
+    font-family: 'Monoton', cursive;
+    font-size: 22px;
+}
