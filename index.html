@@ -1,39 +1,54 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Portfolio</title>
-    <link href="main.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Monoton|Montserrat+Alternates|Open+Sans+Condensed:300|Poiret+One|Sacramento" rel="stylesheet">
-  </head>
-  <body>
-      <nav id="nav" role="nav">
-        <ul>
-          <li><a href="bio">ABOUT ME</a></li>
-          <li><a href="projects">PROJECTS</a></li>
-          <li><a href="contact">CONTACT ME</a></li>
-        </ul>
-      </nav>
-      <div id="semicircle"><img id="semi-circle1" src="http://i1378.photobucket.com/albums/ah114/aubreyyoder/brown-semi_zps7bs97jlb.png" alt="semicircle"></div>
-      <div id="semicircle"><img id="semi-circle2" src="http://i1378.photobucket.com/albums/ah114/aubreyyoder/brown-semi_zps7bs97jlb.png" alt="semicircle"></div>
-      <div id="semicircle"><img id="semi-circle3" src="http://i1378.photobucket.com/albums/ah114/aubreyyoder/brown-semi_zps7bs97jlb.png" alt="semicircle"></div>
-      <header role="banner">
-          <h1>Hello, I’m Aubrey. I’m a <br>
-              San Diego based front end developer with the passion<br>
-              and excitement to learn.
-            </h1>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Portfolio</title>
+        <link href="main.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Monoton|Montserrat+Alternates|Open+Sans+Condensed:300|Poiret+One|Sacramento" rel="stylesheet">
+    </head>
+    <body>
+        <nav id="nav" role="nav">
+            <ul>
+            <li><a href="bio">ABOUT ME</a></li>
+            <li><a href="projects">PROJECTS</a></li>
+            <li><a href="contact">CONTACT ME</a></li>
+            </ul>
+        </nav>
+        <div id="semicircle"><img id="semi-circle1" src="http://i1378.photobucket.com/albums/ah114/aubreyyoder/brown-semi_zps7bs97jlb.png" alt="semicircle"></div>
+        <div id="semicircle"><img id="semi-circle2" src="http://i1378.photobucket.com/albums/ah114/aubreyyoder/brown-semi_zps7bs97jlb.png" alt="semicircle"></div>
+        <div id="semicircle"><img id="semi-circle3" src="http://i1378.photobucket.com/albums/ah114/aubreyyoder/brown-semi_zps7bs97jlb.png" alt="semicircle"></div>
+        <header role="banner">
+         <h1>Hello, I’m Aubrey. I’m a <br>
+            San Diego based front end developer with the passion<br>
+            and excitement to learn.
+         </h1>
       </header>
       <main id="bio" role="bio">
-          <h2>I’m a web developer by day, world explorer by night.
+            <h2>I’m a web developer by day, world explorer by night.
                 Everything intrigues me from being faced with and working through difficult coding problems to experiencing different cultures throughout the world.
                 If I’m not behind a computer, you can usually find me climbing the face of a mountain.
-                Learning is my life, and sharing my knowledge to better the world (one web page at a time) is my goal.</h2>
-      </main>
-      <section role="projects">
-          <p role="project1"><h3 id="climbing-app">Rock Climbing Quiz App</h3>></p>
-      </section>
-      <footer role="contact">CONTACT ME</footer>
-    <script src="script.js"></script>
-  </body>
+                Learning is my life, and sharing my knowledge to better the world (one web page at a time) is my goal.
+            </h2>
+        </main>
+        <section class="projects" role="projects">
+            <h3 id="climbing-app" role="project1"><a href="https://rock-climbing-quiz-app-greybox-wireframe--aubreyyoder.repl.co/
+                ">Rock Climbing Quiz App</a></h3>
+            <p id="quiz-app-description" role="app-description">This app was developed to test the user's knowledge of rock climbing to determine whether or not they have what it takes to conquer the best climbs out there.
+                The development of this app allowed me to explore JavaScript and jQuery as well as building my first project from scratch.
+            </p>
+            <p role="screenshots">
+                <img id="quiz-app-mobile" class="screenshots" src="http://i1378.photobucket.com/albums/ah114/aubreyyoder/Screen%20Shot%202019-02-03%20at%2012.46.38%20PM_zpse55jni38.png">
+                <img id="quiz-app-desktop" class="screenshots" src="http://i1378.photobucket.com/albums/ah114/aubreyyoder/Screen%20Shot%202019-02-03%20at%2012.41.58%20PM_zpspceh93pa.png">
+            </p>
+        </section>
+        <footer class="contact">
+            <ul>
+                <li><a id="email" href="https//aubreyyoder@gmail.com">CONTACT ME: EMAIL</a></li>
+                <li><a id="phone" href="text">CONTACT ME: PHONE</a></li>
+            </ul>
+        </footer>
+        <script src="script.js"></script>
+    </body>
 </html>

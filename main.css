@@ -2,26 +2,31 @@ body {
     background-color: #efdbda;
 }
 
-#nav {
-    background-color: #FFEAD4;
+#nav, footer {
     font-family: 'Monoton', cursive;
     font-size: 16px;
     margin: 0;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 0;
+    padding-bottom: 0;
     position: fixed;
-    top: 0;
     left: 0;
     right: 0;
     text-align: center;
+}
+
+#nav {
+    top: 0;
     z-index: 10;
 }
 
-#nav li {
-    background-color: #FFEAD4;
+#nav li, footer li {
     display: inline;
     list-style-type: none;
-    padding-right: 60px;
+    padding-right: 100px;
+}
+
+#nav, #nav li, footer {
+    background-color: #FFEAD4;
 }
 
 a {
@@ -33,41 +38,40 @@ a:hover {
     color: #e88980;
 }
 
+#semi-circle1, #semi-circle2, #semi-circle3 {
+    height: 120px;
+    width: 80px;
+}
+
 #semi-circle1 {
     position: relative;
-    top: 250px;
+    top: 180px;
     left: 500px;
-    width: 80px;
-    height: 120px;
-    border: 5px;
-    border-color: #FFEAD4;
 }
 
 #semi-circle2 {
     position: relative;
-    top: 300px;
+    top: 230px;
     left: 350px;
-    width: 80px;
-    height: 120px;
-    border: 5px;
-    border-color: #FFEAD4;
 }
 
 #semi-circle3 {
     position: relative;
-    top: 350px;
+    top: 280px;
     left: 500px;
-    width: 80px;
-    height: 120px;
-    border: 5px;
-    border-color: #FFEAD4;
+}
+
+header, #bio {
+    font-family: 'Poiret One', cursive;
+}
+
+header, #bio, #climbing-app, .screenshots, #quiz-app-description {
+    position: absolute;
 }
 
 header {
     color: #9e7855;
-    font-family: 'Poiret One', cursive;
-    position: absolute;
-    top: 385px;
+    top: 315px;
     right: 300px;
     width: 400px;
     height: 100px;
@@ -75,19 +79,52 @@ header {
 
 #bio {
     color: #93795d;
-    font-family: 'Poiret One', cursive;
-    position: absolute;
-    top: 1000px;
+    line-height: 28px;
     left: 150px;
+    top: 800px;
     width: 75%;
-    height: 100px;
 }
 
 #climbing-app{
-    position: absolute;
-    top: 1400px;
-    left: 150px;
-    color: #9e7855;
+    top: 1050px;
+    left: 120px;
     font-family: 'Monoton', cursive;
-    font-size: 22px;
+    font-size: 28px;
+}
+
+.screenshots {
+    border: 3px solid #FFEAD4;
+    padding: 10px;
+}
+
+#quiz-app-mobile {  
+    height: 300px;
+    width: 170px;
+    top: 1100px;
+    right: 120px;
+}
+
+#quiz-app-desktop {
+    height: 30%;
+    width: 30%;
+    top: 1135px;
+    right: 350px;
+}
+
+.screenshots:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+#quiz-app-description {
+    color: #93795d;
+    font-family: 'Russo One', sans-serif;
+    top: 1150px;
+    left: 120px;
+    line-height: 24px;
+    width: 400px;
+}
+
+footer {
+    bottom: 0;
 }
