@@ -23,22 +23,26 @@ body {
   }
   
   #nav li, footer li {
-    display: inline;
+    display: inline-block;
     list-style-type: none;
-    padding-right: 4px;
+    padding-right: 5px;
+  }
+  
+  button {
+    background:none;
+    border:none; 
+    color: #bf8974;
+    cursor: pointer;
+    font: inherit; 
+    padding:0;
+  }
+  
+  button:hover {
+    color: #e88980;
   }
   
   #nav, #nav li, footer {
     background-color: #FFEAD4;
-  }
-  
-  a {
-    color: #bf8974;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: #e88980;
   }
   
   .background-images, #headline, #bio, .each-project, #quiz-app-description, #quiz-app-mobile, #quiz-app-desktop {

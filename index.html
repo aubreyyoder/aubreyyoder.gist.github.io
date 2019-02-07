@@ -11,9 +11,9 @@
     <body>
       <nav id="nav" role="nav">
           <ul>
-          <li><a href="bio">ABOUT ME</a></li>
-          <li><a href="projects">PROJECTS</a></li>
-          <li><a href="contact">CONTACT ME</a></li>
+          <li><div class="nav-button"><button id="about" type="button">ABOUT</button></div></li>
+          <li><div class="nav-button"><button id="projects" type="button">PROJECTS</button></div></li>
+          <li><div class="nav-button"><button id="contact" type="button">CONTACT</button></div></li>
           </ul>
       </nav>
       <header role="banner">
@@ -45,11 +45,13 @@
         </section>
         <footer class="contact">
             <div class="contact"><ul>
-                <li><a id="email" href="">CONTACT ME: EMAIL</a></li>
-                <li><a id="github" href="">CONTACT ME: GUTHUB</a></li>
-                <li><a id="linkedin" href="">CONTACT ME: LINKEDIN</a></li>
+                <li><div class="footer-button"><button id="email" type="button">CONTACT ME: EMAIL</button></div></li>
+                <li><div class="footer-button"><button id="github" type="button">CONTACT ME: GITHUB</button></div></li>
+                <li><div class="footer-button"><button id="linkedin" type="button">CONTACT ME: LINKEDIN</button></div></li>
             </ul></div>
         </footer>
-        <script src="script.js"></script>
+      <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cuid/1.3.8/browser-cuid.min.js"></script>
+      <script src="//code.jquery.com/jquery.min.js"></script>
+      <script type="text/javascript" src="index.js"></script>
     </body>
 </html>
