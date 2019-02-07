@@ -1,160 +1,134 @@
 body {
     background-color: #efdbda;
-}
-
-#nav, footer {
+  }
+  
+  #nav, footer {
     font-family: 'Monoton', cursive;
-    font-size: 16px;
-    margin: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-    position: fixed;
-    left: 0;
-    right: 0;
+    font-size: 14px;
     text-align: center;
-}
-
-#nav {
-    top: 0;
+    width: 100%;
+  }
+  
+  #nav, footer {
+    position: fixed;
     z-index: 10;
-}
-
-footer {
+  }
+  
+  #nav {
+    top: 0;
+  }
+  
+  footer {
     bottom: 0;
-}
-
-#nav li, footer li {
+  }
+  
+  #nav li, footer li {
     display: inline;
     list-style-type: none;
-}
-
-#nav, #nav li, footer {
+    padding-right: 4px;
+  }
+  
+  #nav, #nav li, footer {
     background-color: #FFEAD4;
-}
-
-a {
+  }
+  
+  a {
     color: #bf8974;
     text-decoration: none;
-}
-
-a:hover {
+  }
+  
+  a:hover {
     color: #e88980;
-}
-
-#semi-circle1, #semi-circle2, #semi-circle3 {
-    height: 60px;
-    width: 40px;
-}
-
-#semi-circle1 {
+  }
+  
+  .background-images, #headline, #bio, .each-project, #quiz-app-description, #quiz-app-mobile, #quiz-app-desktop {
     position: relative;
-    top: 180px;
-    left: 500px;
-}
-
-#semi-circle2 {
-    position: relative;
-    top: 230px;
-    left: 350px;
-}
-
-#semi-circle3 {
-    position: relative;
-    top: 280px;
-    left: 500px;
-}
-
-header, #bio {
+  }
+  
+  .background-images {
+    height: 8%;
+    width: 8%;
+  }
+  
+  #semi-circle1 {
+    top: 170px;
+    left: 90px;
+  }
+  
+  #semi-circle2 {
+    top: 175px;
+    left: 30px;
+  }
+  
+  #semi-circle3 {
+    top: 175px;
+    left: 90px;
+  }
+  
+  #headline, #bio {
     font-family: 'Poiret One', cursive;
-}
-
-header, #bio, #climbing-app, .screenshots, #quiz-app-description {
-    position: relative;
-}
-
-header {
-    color: #9e7855;
-    bottom: 60px;
-    left: 700px;
-    width: 400px;
-    height: 100px;
-}
-
-#bio {
-    color: #93795d;
-    line-height: 28px;
-    left: 150px;
+  }
+  
+  #headline {
+    bottom: 25px;
+    color: #654321;
+    font-size: 12px;
+    left: 140px;
+    height: 50%;
+    width: 50%;
+  }
+  
+  #bio {
+    color: #654321;
+    font-size: 14px;
+    top: 250px;
+    
+  }
+  
+  .each-project {
+    font-family: 'Monoton', cursive;
+    top: 340px;
+  }
+  
+  #quiz-app-description {
+    top: 350px;
+  }
+  
+  .screenshots {
+    border: 3px solid #FFEAD4;
+    float: right;
+    right: 80px;
+    height: 50%;
+    padding: 5px;
+    width: 50%;
+  }
+  
+  #quiz-app-mobile {  
+    height: 50%;
+    width: 50%;
+    top: 380px;
+  }
+  
+  #quiz-app-desktop {
+    height: 75%;
+    right: 40px;
     top: 400px;
     width: 75%;
-}
-
-#climbing-app{
-    top: 600px;
-    left: 120px;
-}
-
-.each-project {
-    font-family: 'Monoton', cursive;
-    font-size: 28px;
-}
-
-.screenshots {
-    border: 3px solid #FFEAD4;
-    padding: 5px;
-}
-
-#quiz-app-mobile {  
-    height: 300px;
-    width: 170px;
-    top: 400px;
-    left: 680px;
-}
-
-#quiz-app-mobile:hover {  
-    height: 500px;
-    width: 370px;
-    top: 350px;
-    left: 580px;
-}
-
-#quiz-app-desktop {
-    height: 30%;
-    width: 30%;
-    top: 350px;
-    left: 700px;
-}
-
-#quiz-app-desktop:hover {
-    height: 60%;
-    width: 60%;
-    top: 300px;
-    left: 350px;
-}
-
-.screenshots:hover {
+  }
+  
+  .screenshots:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     cursor: pointer;
-}
-
-#quiz-app-description {
+  }
+  
+  #quiz-app-description {
     color: #93795d;
     font-family: 'Russo One', sans-serif;
-    top: 640px;
-    left: 120px;
-    line-height: 24px;
-    width: 400px;
-}
-
-
-@media only screen and (min-width: 520px) {
-
-    #nav li, footer li {
-        padding-right: 100px;
-    }
-
-    #semi-circle1, #semi-circle2, #semi-circle3 {
-        height: 120px;
-        width: 80px;
-    }
-
-}
+      
+  }
+  
+  
+  @media only screen and (min-width: 520px) {
+  
+  
+  }
