@@ -186,14 +186,14 @@ body {
     #quiz-app-mobile {  
       height: 20%;
       width: 20%;
-      top: 150px;
-      right: 120px;
+      top: 370px;
+      right: 480px;
     }
   
     #quiz-app-desktop {
       height: 45%;
-      left: 120px;
-      top: 420px;
+      left: 100px;
+      top: 400px;
       width: 45%;
     }
   
@@ -201,12 +201,79 @@ body {
       padding: 40px;
     }
   
-    .each-project, .all-app-descriptions {
+    .each-project, .projects {
       padding-left: 40px;
     }
   
-    .all-app-descriptions {
-      width: 50%;
+    .projects {
+      padding: 40px;;
     }
   
   }
+
+
+  @media only screen and (min-width: 1400px) {
+
+    #semi-circle1 {
+        top: 140px;
+        left: 250px;
+      }
+    
+      #semi-circle2 {
+        top: 140px;
+        left: 150px;
+      }
+    
+      #semi-circle3 {
+        top: 140px;
+        left: 250px;
+      }
+
+    #headline {
+        font-size: 20px;
+        top: -260px;
+        left: 550px;
+        width: 500px;
+    }
+  
+    #quiz-app-mobile {  
+      size: 20%;
+      top: 370px;
+      right: 480px;
+    }
+  
+    #quiz-app-desktop {
+      left: 100px;
+      top: 400px;
+      size: 45%;
+    }
+  
+    #bio {
+        font-size: 20px;
+        padding-left: 150px;
+        width: 80%;
+    }
+  
+    .each-project, #quiz-app-description {
+      padding-left: 100px;
+    }
+
+    #quiz-app-description {
+        font-size: 18px;
+        width: 50%;
+    }
+  
+    #quiz-app-mobile {  
+        size: 10%;
+        top: 370px;
+        right: 900px;
+      }
+    
+      #quiz-app-desktop {
+        left: 100px;
+        top: 450px;
+        size: 30%;
+      }
+  }
+
+  
