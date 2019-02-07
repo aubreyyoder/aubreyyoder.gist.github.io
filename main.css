@@ -19,10 +19,13 @@ body {
     z-index: 10;
 }
 
+footer {
+    bottom: 0;
+}
+
 #nav li, footer li {
     display: inline;
     list-style-type: none;
-    padding-right: 100px;
 }
 
 #nav, #nav li, footer {
@@ -39,8 +42,8 @@ a:hover {
 }
 
 #semi-circle1, #semi-circle2, #semi-circle3 {
-    height: 120px;
-    width: 80px;
+    height: 60px;
+    width: 40px;
 }
 
 #semi-circle1 {
@@ -66,13 +69,13 @@ header, #bio {
 }
 
 header, #bio, #climbing-app, .screenshots, #quiz-app-description {
-    position: absolute;
+    position: relative;
 }
 
 header {
     color: #9e7855;
-    top: 315px;
-    right: 300px;
+    bottom: 60px;
+    left: 700px;
     width: 400px;
     height: 100px;
 }
@@ -81,34 +84,51 @@ header {
     color: #93795d;
     line-height: 28px;
     left: 150px;
-    top: 800px;
+    top: 400px;
     width: 75%;
 }
 
 #climbing-app{
-    top: 1050px;
+    top: 600px;
     left: 120px;
+}
+
+.each-project {
     font-family: 'Monoton', cursive;
     font-size: 28px;
 }
 
 .screenshots {
     border: 3px solid #FFEAD4;
-    padding: 10px;
+    padding: 5px;
 }
 
 #quiz-app-mobile {  
     height: 300px;
     width: 170px;
-    top: 1100px;
-    right: 120px;
+    top: 400px;
+    left: 680px;
+}
+
+#quiz-app-mobile:hover {  
+    height: 500px;
+    width: 370px;
+    top: 350px;
+    left: 580px;
 }
 
 #quiz-app-desktop {
     height: 30%;
     width: 30%;
-    top: 1135px;
-    right: 350px;
+    top: 350px;
+    left: 700px;
+}
+
+#quiz-app-desktop:hover {
+    height: 60%;
+    width: 60%;
+    top: 300px;
+    left: 350px;
 }
 
 .screenshots:hover {
@@ -119,12 +139,22 @@ header {
 #quiz-app-description {
     color: #93795d;
     font-family: 'Russo One', sans-serif;
-    top: 1150px;
+    top: 640px;
     left: 120px;
     line-height: 24px;
     width: 400px;
 }
 
-footer {
-    bottom: 0;
+
+@media only screen and (min-width: 520px) {
+
+    #nav li, footer li {
+        padding-right: 100px;
+    }
+
+    #semi-circle1, #semi-circle2, #semi-circle3 {
+        height: 120px;
+        width: 80px;
+    }
+
 }
