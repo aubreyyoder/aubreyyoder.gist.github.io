@@ -28,7 +28,7 @@ body {
     padding-right: 5px;
   }
   
-  button {
+  button, a {
     background:none;
     border:none; 
     color: #bf8974;
@@ -37,7 +37,7 @@ body {
     padding:0;
   }
   
-  button:hover {
+  button:hover, a:hover {
     color: #e88980;
   }
   
@@ -98,7 +98,7 @@ body {
     top: 350px;
   }
   
-  .screenshots {
+  .img-screenshots {
     border: 3px solid #FFEAD4;
     float: right;
     right: 80px;
@@ -120,7 +120,7 @@ body {
     width: 75%;
   }
   
-  .screenshots:hover {
+  .img-screenshots:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     cursor: pointer;
   }
@@ -133,6 +133,80 @@ body {
   
   
   @media only screen and (min-width: 520px) {
+    #semi-circle1 {
+      top: 200px;
+      left: 250px;
+    }
   
+    #semi-circle2 {
+      top: 200px;
+      left: 150px;
+    }
+  
+    #semi-circle3 {
+      top: 200px;
+      left: 250px;
+    }
+  
+    #headline {
+      top: 0;
+      left: 330px;
+    }
+  
+    #bio {
+      padding: 40px;
+    }
+  
+    .each-project, .all-app-descriptions {
+      padding-left: 40px;
+    }
+  
+    .all-app-descriptions {
+      width: 50%;
+    }
+  
+    #quiz-app-mobile {  
+      height: 20%;
+      width: 20%;
+      top: 150px;
+      right: 120px;
+    }
+  
+    #quiz-app-desktop {
+      height: 45%;
+      left: 120px;
+      top: 420px;
+      width: 45%;
+    }
+  
+  }
+  
+  @media only screen and (min-width: 720px) {
+  
+    #quiz-app-mobile {  
+      height: 20%;
+      width: 20%;
+      top: 150px;
+      right: 120px;
+    }
+  
+    #quiz-app-desktop {
+      height: 45%;
+      left: 120px;
+      top: 420px;
+      width: 45%;
+    }
+  
+    #bio {
+      padding: 40px;
+    }
+  
+    .each-project, .all-app-descriptions {
+      padding-left: 40px;
+    }
+  
+    .all-app-descriptions {
+      width: 50%;
+    }
   
   }
