@@ -1,41 +1,25 @@
 
-function aboutMeScroll() {
-    //when tab in nav is clicked, scroll to #bio
-    $('.js-btn').click(() => {
+function scrollToBio() {
+    //when tab in nav is clicked, scroll to section
+    $('.js-btn-about').click(() => {
         $('html, body').animate({
-            scrollTop: $('.js-section').offset().top
-        }, 200);
+            scrollTop: $('.js-section-projects').offset().top
+        }, 500);
     });
 }
 
-function projectsScroll() {
-//when tab in nav bar is clicked, scroll to .projects
-}
-
-function contactScroll() {
-//when tab in nav is clicked, scroll to footer
-}
-
-function email() {
-//when tab in footer is clicked, create seperate window with email addressed to
-// 'aubreyyoder@gmail.com'
-}
-
-function github() {
-//when tab in footer is clicked, take to https://github.com/aubreyyoder/
-}
-
-function linkedin() {
-//when tab in footer is clicked, take to linkedin page
+function scrollToProjects() {
+    //when tab in nav is clicked, scroll to section
+    $('.js-btn-projects').click(() => {
+        $('html, body').animate({
+            scrollTop: $('.js-section-about').offset().top
+        }, 500);
+    });
 }
 
 function handleAllEvents() {
-    $(aboutMeScroll);
-    $(projectScroll);
-    $(contactScroll);
-    $(email);
-    $(github);
-    $(linkedin);
+    $(scrollToBio);
+    $(scrollToProjects);
 }
 
 $(handleAllEvents);
