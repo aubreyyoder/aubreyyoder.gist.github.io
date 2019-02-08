@@ -25,7 +25,7 @@ button, a {
     color: #bf8974;
     cursor: pointer;
     font: inherit; 
-    padding:0;
+    padding-left: 20px;
 }
   
 button:hover, a:hover {
@@ -87,20 +87,22 @@ button:hover, a:hover {
 #quiz-app-description {
     top: 350px;
 }
+
+#bio, .each-project, #quiz-app-description {
+    padding: 60px;
+  }
   
 .img-screenshots {
     border: 3px solid #FFEAD4;
     float: right;
-    right: 80px;
-    height: 50%;
     padding: 5px;
-    width: 50%;
 }
   
 #quiz-app-mobile {  
     height: 50%;
     width: 50%;
     top: 380px;
+    right: 80px;
 }
   
 #quiz-app-desktop {
@@ -120,78 +122,33 @@ button:hover, a:hover {
       
 }
   
-  
-@media only screen and (min-width: 520px) {
-    #semi-circle1 {
-      top: 200px;
-      left: 250px;
-    }
-  
-    #semi-circle2 {
-      top: 200px;
-      left: 150px;
-    }
-  
-    #semi-circle3 {
-      top: 200px;
-      left: 250px;
-    }
-  
-    #headline {
-      top: 0;
-      left: 330px;
-    }
-  
-    #bio {
-      padding: 40px;
-    }
-  
-    .each-project, .all-app-descriptions {
-      padding-left: 40px;
-    }
-  
-    .all-app-descriptions {
-      width: 50%;
-    }
-  
-    #quiz-app-mobile {  
-      height: 20%;
-      width: 20%;
-      top: 150px;
-      right: 120px;
-    }
-  
-    #quiz-app-desktop {
-      height: 45%;
-      left: 120px;
-      top: 420px;
-      width: 45%;
-    }
-  
-}
-  
 @media only screen and (min-width: 720px) {
+
+    #headline {
+        left: 200px;
+        top: -80px;
+    }
   
     #quiz-app-mobile {  
       height: 20%;
+      right: 80px;
+      top: 80px;
       width: 20%;
-      top: 370px;
-      right: 480px;
     }
   
     #quiz-app-desktop {
       height: 45%;
-      left: 100px;
-      top: 400px;
+      right: 160px;
+      top: 450px;
       width: 45%;
-    }
-  
-    #bio {
-      padding: 40px;
     }
   
     .each-project {
       padding-left: 40px;
+    }
+
+    #quiz-app-description {
+        width: 50%;
     }
 }
 
@@ -220,18 +177,6 @@ button:hover, a:hover {
         width: 500px;
     }
   
-    #quiz-app-mobile {  
-      size: 20%;
-      top: 370px;
-      right: 480px;
-    }
-  
-    #quiz-app-desktop {
-      left: 100px;
-      top: 400px;
-      size: 45%;
-    }
-  
     #bio {
         font-size: 24px;
         padding-left: 150px;
@@ -245,18 +190,6 @@ button:hover, a:hover {
     #quiz-app-description {
         font-size: 18px;
         width: 50%;
-    }
-  
-    #quiz-app-mobile {  
-        size: 10%;
-        top: 370px;
-        right: 900px;
-    }
-    
-    #quiz-app-desktop {
-        left: 100px;
-        top: 450px;
-        size: 30%;
     }
 }
 
