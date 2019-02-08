@@ -1,5 +1,11 @@
+
 function aboutMeScroll() {
-//when tab in nav is clicked, scroll to #bio
+    //when tab in nav is clicked, scroll to #bio
+    $('.js-btn').click(() => {
+        $('html, body').animate({
+            scrollTop: $('.js-section').offset().top
+        }, 200);
+    });
 }
 
 function projectsScroll() {

@@ -1,137 +1,127 @@
 body {
     background-color: #efdbda;
-  }
+}
   
-  #nav, footer {
+#nav, footer {
     font-family: 'Monoton', cursive;
     font-size: 14px;
     text-align: center;
-    width: 100%;
-  }
-  
-  #nav, footer {
     position: fixed;
+    width: 100%;
     z-index: 10;
-  }
+}
   
-  #nav {
+#nav {
     top: 0;
-  }
+}
   
-  footer {
+footer {
     bottom: 0;
-  }
+}
   
-  #nav li, footer li {
-    display: inline-block;
-    list-style-type: none;
-    padding-right: 5px;
-  }
-  
-  button, a {
+button, a {
     background:none;
     border:none; 
     color: #bf8974;
     cursor: pointer;
     font: inherit; 
     padding:0;
-  }
+}
   
-  button:hover, a:hover {
+button:hover, a:hover {
     color: #e88980;
-  }
+}
   
-  #nav, #nav li, footer {
+#nav, #nav li, footer {
     background-color: #FFEAD4;
-  }
+}
   
-  .background-images, #headline, #bio, .each-project, #quiz-app-description, #quiz-app-mobile, #quiz-app-desktop {
+.background-images, #headline, #bio, .each-project, #quiz-app-description, #quiz-app-mobile, #quiz-app-desktop {
     position: relative;
-  }
+}
   
-  .background-images {
+.background-images {
     height: 8%;
     width: 8%;
-  }
+}
   
-  #semi-circle1 {
+#semi-circle1 {
     top: 170px;
     left: 90px;
-  }
+}
   
-  #semi-circle2 {
+#semi-circle2 {
     top: 175px;
     left: 30px;
-  }
+}
   
-  #semi-circle3 {
+#semi-circle3 {
     top: 175px;
     left: 90px;
-  }
+}
   
-  #headline, #bio {
+#headline, #bio {
     font-family: 'Poiret One', cursive;
-  }
+}
   
-  #headline {
+#headline {
     bottom: 25px;
     color: #654321;
     font-size: 12px;
     left: 140px;
     height: 50%;
     width: 50%;
-  }
+}
   
-  #bio {
+#bio {
     color: #654321;
     font-size: 14px;
     top: 250px;
-    
-  }
+}
   
-  .each-project {
+.each-project {
     font-family: 'Monoton', cursive;
     top: 340px;
-  }
+}
   
-  #quiz-app-description {
+#quiz-app-description {
     top: 350px;
-  }
+}
   
-  .img-screenshots {
+.img-screenshots {
     border: 3px solid #FFEAD4;
     float: right;
     right: 80px;
     height: 50%;
     padding: 5px;
     width: 50%;
-  }
+}
   
-  #quiz-app-mobile {  
+#quiz-app-mobile {  
     height: 50%;
     width: 50%;
     top: 380px;
-  }
+}
   
-  #quiz-app-desktop {
+#quiz-app-desktop {
     height: 75%;
     right: 40px;
     top: 400px;
     width: 75%;
-  }
+}
   
-  .img-screenshots:hover {
+.img-screenshots:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
+}
   
-  #quiz-app-description {
+#quiz-app-description {
     color: #93795d;
     font-family: 'Russo One', sans-serif;
       
-  }
+}
   
   
-  @media only screen and (min-width: 520px) {
+@media only screen and (min-width: 520px) {
     #semi-circle1 {
       top: 200px;
       left: 250px;
@@ -178,9 +168,9 @@ body {
       width: 45%;
     }
   
-  }
+}
   
-  @media only screen and (min-width: 720px) {
+@media only screen and (min-width: 720px) {
   
     #quiz-app-mobile {  
       height: 20%;
@@ -200,33 +190,28 @@ body {
       padding: 40px;
     }
   
-    .each-project, .projects {
+    .each-project {
       padding-left: 40px;
     }
-  
-    .projects {
-      padding: 40px;;
-    }
-  
-  }
+}
 
 
-  @media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1400px) {
 
     #semi-circle1 {
         top: 140px;
         left: 250px;
-      }
+    }
     
-      #semi-circle2 {
+    #semi-circle2 {
         top: 140px;
         left: 150px;
-      }
+    }
     
-      #semi-circle3 {
+    #semi-circle3 {
         top: 140px;
         left: 250px;
-      }
+    }
 
     #headline {
         font-size: 20px;
@@ -248,7 +233,7 @@ body {
     }
   
     #bio {
-        font-size: 20px;
+        font-size: 24px;
         padding-left: 150px;
         width: 80%;
     }
@@ -266,13 +251,13 @@ body {
         size: 10%;
         top: 370px;
         right: 900px;
-      }
+    }
     
-      #quiz-app-desktop {
+    #quiz-app-desktop {
         left: 100px;
         top: 450px;
         size: 30%;
-      }
-  }
+    }
+}
 
   

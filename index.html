@@ -9,13 +9,11 @@
         <link href="https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Monoton|Montserrat+Alternates|Open+Sans+Condensed:300|Poiret+One|Sacramento" rel="stylesheet">
     </head>
     <body>
-      <nav id="nav" role="nav">
-          <ul>
-          <li><div class="nav-button"><button id="about" type="button">ABOUT</button></div></li>
-          <li><div class="nav-button"><button id="projects" type="button">PROJECTS</button></div></li>
-          <li><div class="nav-button"><button id="contact" type="button">CONTACT</button></div></li>
-          </ul>
-      </nav>
+      <div id="nav" class="btns" role="nav">
+        <button class="btn js-btn">ABOUT</button>
+        <button class="btn js-btn">PROJECTS</button>
+        <button class="btn js-btn">CONTACT</button>
+      </div>
       <header role="banner">
         <div id="semicircle"><img id="semi-circle1" class="background-images" src="https://lh3.googleusercontent.com/QnBUWVKKJIYcBk1bsRat7Qp_WsRA2r-LGsb61qPrOLiUmmIguKg2LLkEOpgTngeMKHaDycl1-7sSUCUPQw0YPJp1aEVWyzb7VqTQCHKBfRrzEq5d9c-Ab-hdn7IaFfTNJQqr06ueM3ZC7P70sJvbGP-KmnurKO5VtLTE6W-_x69NTPZMcYouUFIGx9fXDYRqvBaTf9mWL37ybk2x1wdcH1g0CioDu2PluWS4eJVHXXcID36WEhlPBnnXvzE5y4cgLS8PWHTfZkCm1ZwZmiyQbXAwaX2Zp8O170H1uAwYtLpgsNAzuolJZ8VHkoa6kXatGw_5iukpd2nQqC9w6oQYQfKuipZWm59L0zl2jzy_opR_0ZrGLk-6Y_thsGl9RblG1eKHeUAis04sJxszuEKqwDHN9YcvMmFNCJl9_Gtaa2Ra63GXcWrnwvADW3_KpyjWAjqyQYTHpEkCEGj9P5JNzhF5lhjsYqGSxhNAqyfNkE7LmtRSjBGafP2zZBqYZGX5R6RzXKwm97ArFhWNL_F5OATU-00K1L7QlKlt2iL5-s8vZHL1LOpl7kUIEKJ-wO9OGtpFPCo8pqdqGPW6jyC4N0-fQ5RyB3es1SiFKgzaMGGOgm5uioLvHpDOkeFsFHe3EBlRMnVNo10z4xSA7equREcwpiMYCw=w200-h320-no" alt="semicircle"></div>
         <div id="semicircle"><img id="semi-circle2" class="background-images" src="https://lh3.googleusercontent.com/QnBUWVKKJIYcBk1bsRat7Qp_WsRA2r-LGsb61qPrOLiUmmIguKg2LLkEOpgTngeMKHaDycl1-7sSUCUPQw0YPJp1aEVWyzb7VqTQCHKBfRrzEq5d9c-Ab-hdn7IaFfTNJQqr06ueM3ZC7P70sJvbGP-KmnurKO5VtLTE6W-_x69NTPZMcYouUFIGx9fXDYRqvBaTf9mWL37ybk2x1wdcH1g0CioDu2PluWS4eJVHXXcID36WEhlPBnnXvzE5y4cgLS8PWHTfZkCm1ZwZmiyQbXAwaX2Zp8O170H1uAwYtLpgsNAzuolJZ8VHkoa6kXatGw_5iukpd2nQqC9w6oQYQfKuipZWm59L0zl2jzy_opR_0ZrGLk-6Y_thsGl9RblG1eKHeUAis04sJxszuEKqwDHN9YcvMmFNCJl9_Gtaa2Ra63GXcWrnwvADW3_KpyjWAjqyQYTHpEkCEGj9P5JNzhF5lhjsYqGSxhNAqyfNkE7LmtRSjBGafP2zZBqYZGX5R6RzXKwm97ArFhWNL_F5OATU-00K1L7QlKlt2iL5-s8vZHL1LOpl7kUIEKJ-wO9OGtpFPCo8pqdqGPW6jyC4N0-fQ5RyB3es1SiFKgzaMGGOgm5uioLvHpDOkeFsFHe3EBlRMnVNo10z4xSA7equREcwpiMYCw=w200-h320-no"></div>
@@ -25,33 +23,32 @@
           </h1>
         </div>
       </header>
-      <main id="bio" role="bio">
-            <h2>I’m a web developer by day, world explorer by night.
+        <main id="bio" role="bio">
+            <div class="section js-section">I’m a web developer by day, world explorer by night.
                 Everything intrigues me from being faced with and working through difficult coding problems to experiencing different cultures throughout the world.
                 If I’m not behind a computer, you can usually find me climbing the face of a mountain.
                 Learning is my life, and sharing my knowledge to better the world (one web page at a time) is my goal.
-            </h2>
+            </div>
         </main>
-        <section class="projects" role="projects">
+        <div class="section js-section">
             <h3 id="climbing-app" class="each-project" role="project1"><a href="https://rock-climbing-quiz-app-greybox-wireframe--aubreyyoder.repl.co/
                 ">Rock Climbing Quiz App :</a></h3>
             <p id="quiz-app-description" role="app-description">This app was developed to test the user's knowledge of rock climbing to determine whether or not they have what it takes to conquer the best climbs out there.
                 The development of this app allowed me to explore JavaScript and jQuery as well as building my first project from scratch.
             </p>
-            <div class="screenshots">
+            <section class="screenshots">
                 <img id="quiz-app-mobile" class="img-screenshots" src="https://lh3.googleusercontent.com/0d9YWxyLxOl0uijvLf1LJuLoMFpoeieJvS9-MR0i1G_5Dq6Ub3FTy7EVkJMjDKn6viPk238XGqugBHFkXvITATCjsKpCFT67heLo3eQkmUXPcx-r3X28_c-SPRLmpkGbwoyc-AtEhJlhsBbQC91JRSYQQrfL2Adq-P9GZD5k3q4KxkA9njRw8i9Gg_jIEHxYdfeEwVRAcR-GIdtCSYYTqhS4BFB_JcdNULIgF3FAU1n1iKEiH07H7ft2bM653XNw14htx4rWrjzDXW9ZvNRNQ8j-bFncg3rWCm69wLpFk8vfo6ToLOBTRoA94xIIuVyEMKBVQTC_baHYugXcwzsk4olSvU4YdSfYLgRax09LDPzaQZuRzDGolChH_Zm85dspDwabqO1DaDXWVvwytIn5c9fwK0AjUc6w4PSxwr_fwYfExzdSL3I0s3Y_abDTvH0gv-0jBHfhn-LPDpgcTv5IFb9G330FZMJr7WjQ5-HegmXXM4z6VIa-NG8hdlNc6qMLYxeJ2pw75A-HZ1w-dv5UnNvxovwexeDKny6-sgKIr7h3BuZsYA5D7rk-UKs0-IdC4O6QleCH2qlYnK5qQ2wLJbsqh61g17y6gASCgA_u5pdFOCCbvsF5j4l96s7GJODXIWuesz6mnCzwAk-fTQiXl1fEfB9i6g=w604-h1014-no">
                 <img id="quiz-app-desktop" class="img-screenshots" src="https://lh3.googleusercontent.com/ZRaKaufIRVaz1RoVs0c9mNdK3Tg6uQu7rz3Ag9Modm_BtohKe_3RJ2H6K_LKnxJVmkoDzSacnoKAoBeDOytql6C6FBtFmkP03Y7LOUnzijpBAsF6d7qJgAbq18P8IKlpikgjITKGJUpcNtn8EhT9kn_2vVqyCIry3Kmei9MhxBFsjCmPJCdRFFTTfo_vmVjm5vMXQpa2r4frWpoIz8CBkTy-FEVavSvT3fBp5KmlK_rwcKDLalxQ3-1AdrSnNI46hnrTxQyaU2nqh04ksrjVaFYNELzTJJVeZZt9OWR64YiVK5Pg0ZxePYcuq_yO0Yykc6-m1hGNAWMnrX8zF-osJSuriUcdd1vfC7c_GZni7d3gAYqOnFv7T-7PSnd783WZ7vA2y8jx6aBmeLC3YF2IY_1hCYp0HoQZiKhAE6Z1UWvxRvBhg-kysHMtAgDPWM9HvZNxBEXPVBOUtSsiGpd4CItwaQJ9-7PopSV-n46O6jp4y2OnlasUZeiq8m9feXKBIUOwUB5bIj9GgX9CCZKj1-ILBC6GCt5d1caoS9atl2YRQSXJSf_s_jNQgVL7E8krH4eCz3PGtjUslC0b7OMppAD_DIhUTCDteyK-riyX-EsxlpVGkCcW6nVwbWQXqcTiV_SDD13Q6BsLuaKA6CPoGGOQRHqQDA=w2792-h1288-no">
-            </div>
-        </section>
+            </section>
+        </div>
         <footer class="contact">
-            <div class="contact"><ul>
-                <li><div class="footer-button"><button id="email" type="button">CONTACT ME: EMAIL</button></div></li>
-                <li><div class="footer-button"><button id="github" type="button">CONTACT ME: GITHUB</button></div></li>
-                <li><div class="footer-button"><button id="linkedin" type="button">CONTACT ME: LINKEDIN</button></div></li>
-            </ul></div>
+            <div class="section js-section">
+                <a href="" id="email" type="button">CONTACT ME: EMAIL</a>
+                <a href="" id="github" type="button">CONTACT ME: GITHUB</a>
+                <a href="" id="linkedin" type="button">CONTACT ME: LINKEDIN</a>
+           </div>
         </footer>
-      <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cuid/1.3.8/browser-cuid.min.js"></script>
-      <script src="//code.jquery.com/jquery.min.js"></script>
-      <script type="text/javascript" src="index.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script type="text/javascript" src="script.js"></script>
     </body>
 </html>
