@@ -60,10 +60,11 @@ button:hover, a:hover {
     left: 90px;
 }
   
-#headline, #bio {
+#headline, #bio, #quiz-app-description {
+    color: #654321;
     font-family: 'Poiret One', cursive;
 }
-  
+
 #headline {
     bottom: 25px;
     color: #654321;
@@ -74,18 +75,19 @@ button:hover, a:hover {
 }
   
 #bio {
-    color: #654321;
-    font-size: 14px;
-    top: 250px;
+    font-size: 20px;
+    top: 160px;
 }
   
 .each-project {
     font-family: 'Monoton', cursive;
-    top: 340px;
+    font-size: 24px;
+    top: 200px;
 }
   
 #quiz-app-description {
-    top: 350px;
+    font-size: 20px;
+    top: 120px;
 }
 
 #bio, .each-project, #quiz-app-description {
@@ -101,25 +103,12 @@ button:hover, a:hover {
 #quiz-app-mobile {  
     height: 50%;
     width: 50%;
-    top: 380px;
+    top: 100px;
     right: 80px;
-}
-  
-#quiz-app-desktop {
-    height: 75%;
-    right: 40px;
-    top: 400px;
-    width: 75%;
 }
   
 .img-screenshots:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-  
-#quiz-app-description {
-    color: #93795d;
-    font-family: 'Russo One', sans-serif;
-      
 }
   
 @media only screen and (min-width: 720px) {
@@ -128,19 +117,16 @@ button:hover, a:hover {
         left: 200px;
         top: -80px;
     }
+
+    #bio {
+        font-size: 24px;
+    }
   
     #quiz-app-mobile {  
       height: 20%;
       right: 80px;
-      top: 80px;
-      width: 20%;
-    }
-  
-    #quiz-app-desktop {
-      height: 45%;
-      right: 160px;
-      top: 450px;
-      width: 45%;
+      top: -210px;
+      width: 26%;
     }
   
     .each-project {
@@ -171,15 +157,16 @@ button:hover, a:hover {
     }
 
     #headline {
-        font-size: 20px;
-        top: -260px;
+        font-size: 36px;
+        top: -530px;
         left: 550px;
         width: 500px;
     }
   
     #bio {
-        font-size: 24px;
+        font-size: 32px;
         padding-left: 150px;
+        top: -240px;
         width: 80%;
     }
   
@@ -187,10 +174,18 @@ button:hover, a:hover {
       padding-left: 100px;
     }
 
+    .each-project {
+        top: -100px;
+    }
+
     #quiz-app-description {
-        font-size: 18px;
+        font-size: 24px;
+        top: -150px;
         width: 50%;
     }
+
+    #quiz-app-mobile {
+        top: -440px;
 }
 
   
