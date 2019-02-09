@@ -97,7 +97,7 @@ button:hover, a:hover {
 .img-screenshots {
     border: 3px solid #FFEAD4;
     float: right;
-    padding: 5px;
+    padding: 10px;
 }
   
 #quiz-app-mobile {  
@@ -114,8 +114,9 @@ button:hover, a:hover {
 @media only screen and (min-width: 720px) {
 
     #headline {
+        font-size: 20px;
         left: 200px;
-        top: -80px;
+        top: -140px;
     }
 
     #bio {
@@ -166,26 +167,27 @@ button:hover, a:hover {
     #bio {
         font-size: 32px;
         padding-left: 150px;
-        top: -240px;
+        top: -400px;
         width: 80%;
     }
   
     .each-project, #quiz-app-description {
-      padding-left: 100px;
+      padding-left: 150px;
     }
 
     .each-project {
-        top: -100px;
+        top: -260px;
     }
 
     #quiz-app-description {
         font-size: 24px;
-        top: -150px;
+        top: -350px;
         width: 50%;
     }
 
     #quiz-app-mobile {
-        top: -440px;
+        right: 120px;
+        top: -640px;
 }
 
   
