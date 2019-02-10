@@ -158,16 +158,16 @@ button:hover, a:hover {
     }
 
     #headline {
-        font-size: 36px;
-        top: -530px;
+        font-size: 28px;
         left: 550px;
-        width: 500px;
+        top: -340px;
+        width: 550px;
     }
   
     #bio {
         font-size: 32px;
         padding-left: 150px;
-        top: -400px;
+        top: -200px;
         width: 80%;
     }
   
@@ -176,18 +176,16 @@ button:hover, a:hover {
     }
 
     .each-project {
-        top: -260px;
+        top: -200px;
     }
 
     #quiz-app-description {
         font-size: 24px;
-        top: -350px;
+        top: -290px;
         width: 50%;
     }
 
     #quiz-app-mobile {
         right: 120px;
-        top: -640px;
+        top: -580px;
 }
-
-  

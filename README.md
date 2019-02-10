@@ -7,3 +7,5 @@ My Bio explains more about me and my interest in web development as well as othe
 My projects will be listed below with descriptions and screenshots.
 
 The footer consists of ways to contact me through links that will take you elsewhere.
+
+This portfolio will constantly be updated.
