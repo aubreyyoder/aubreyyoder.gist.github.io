@@ -1,52 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <title>Portfolio</title>
-        <link href="main.css" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Monoton|Montserrat+Alternates|Open+Sans+Condensed:300|Poiret+One|Sacramento" rel="stylesheet">
-    </head>
-    <body>
-      <div id="nav" class="btns" role="nav">
-        <button class="btn js-btn-about">ABOUT</button>
-        <button class="btn js-btn-projects">PROJECTS</button>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Portfolio</title>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Russo+One"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Monoton|Montserrat+Alternates|Open+Sans+Condensed:300|Poiret+One|Sacramento"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="nav" class="btns" role="nav">
+      <button class="btn js-btn-about">ABOUT</button>
+      <button class="btn js-btn-projects">PROJECTS</button>
+    </div>
+    <header role="banner">
+      <div id="semicircle">
+        <img
+          id="semi-circle1"
+          class="background-images"
+          src="https://i.ibb.co/qmrmrvv/brown-semi.png"
+          alt="brown-semi"
+        />
       </div>
-      <header role="banner">
-        <div id="semicircle"><img id="semi-circle1" class="background-images" src="https://i.ibb.co/qmrmrvv/brown-semi.png" alt="brown-semi"></div>
-        <div id="semicircle"><img id="semi-circle2" class="background-images" src="https://i.ibb.co/qmrmrvv/brown-semi.png" alt="brown-semi"></div>
-        <div id="semicircle"><img id="semi-circle3" class="background-images" src="https://i.ibb.co/qmrmrvv/brown-semi.png" alt="brown-semi"></div>
-        <div id="headline">
-          <h1>Hello, I’m Aubrey. I’m a San Diego based front end developer with the excitement and passion to learn.
-          </h1>
-        </div>
-      </header>
-        <main id="bio" role="bio">
-            <div class="section js-section-about">I’m a web developer by day, world explorer by night.
-                Everything intrigues me from being faced with and working through difficult coding problems to experiencing different cultures throughout the world.
-                If I’m not behind a computer, you can usually find me climbing the face of a mountain.
-                Learning is my life, and sharing my knowledge to better the world (one web page at a time) is my goal.
-            </div>
-        </main>
-        <div class="section js-section-projects">
-            <h3 id="climbing-app" class="each-project" role="project1"><a href="https://rock-climbing-quiz-app-greybox-wireframe--aubreyyoder.repl.co/
-                ">Rock Climbing Quiz App :</a></h3>
-            <p id="quiz-app-description" role="app-description">This app was developed to test the user's knowledge of rock climbing to determine whether or not they have what it takes to conquer the best climbs out there.
-                The development of this app allowed me to explore JavaScript and jQuery as well as building my first project from scratch.<br><br>
-                <a href="https://github.com/aubreyyoder/Quiz-app">LINK TO GITHUB REPO</a>
-            </p>
-            <section class="screenshots">
-                <img id="quiz-app-mobile" class="img-screenshots" src="https://i.ibb.co/2kF8CSg/Screen-Shot-2019-02-03-at-12-46-38-PM.png" alt="quiz-mobile-screenshot">
-            </section>
-        </div>
-        <footer class="contact">
-            CONTACT ME:
-            <a href="mailto:aubreyyoder@gmail.com" id="email" type="button">EMAIL</a>
-            <a href="https://github.com/aubreyyoder" id="github" type="button">GITHUB</a>
-            <a href="https://www.linkedin.com/in/aubrey-yoder" id="linkedin" type="button">LINKEDIN</a>
-        </footer>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <script type="text/javascript" src="script.js"></script>
-    </body>
+      <div id="semicircle">
+        <img
+          id="semi-circle2"
+          class="background-images"
+          src="https://i.ibb.co/qmrmrvv/brown-semi.png"
+          alt="brown-semi"
+        />
+      </div>
+      <div id="semicircle">
+        <img
+          id="semi-circle3"
+          class="background-images"
+          src="https://i.ibb.co/qmrmrvv/brown-semi.png"
+          alt="brown-semi"
+        />
+      </div>
+      <div id="headline">
+        <h1>
+          Hello, I’m Aubrey. I’m a San Diego based front end developer with the
+          excitement and passion to learn.
+        </h1>
+      </div>
+    </header>
+    <main id="bio" role="bio">
+      <div class="section js-section-about">
+        I’m a web developer by day, world explorer by night. Everything
+        intrigues me from being faced with and working through difficult coding
+        problems to experiencing different cultures throughout the world. If I’m
+        not behind a computer, you can usually find me climbing the face of a
+        mountain. Learning is my life, and sharing my knowledge to better the
+        world (one web page at a time) is my goal.
+      </div>
+    </main>
+    <div class="section js-section-projects">
+      <div id="app1">
+        <h3 id="climbing-app" class="each-project" role="project1">
+          <a
+            href="https://rock-climbing-quiz-app-greybox-wireframe--aubreyyoder.repl.co/
+                "
+            >Rock Climbing Quiz App :</a
+          >
+        </h3>
+        <p id="quiz-app-description" role="app-description">
+          This app was developed to test the user's knowledge of rock climbing
+          to determine whether or not they have what it takes to conquer the
+          best climbs out there. The development of this app allowed me to
+          explore JavaScript and jQuery as well as building my first project
+          from scratch.<br /><br />
+          <a href="https://github.com/aubreyyoder/Quiz-app"
+            >LINK TO GITHUB REPO</a
+          >
+        </p>
+        <section class="screenshots">
+          <img
+            id="quiz-app-mobile"
+            class="img-screenshots"
+            src="https://i.ibb.co/2kF8CSg/Screen-Shot-2019-02-03-at-12-46-38-PM.png"
+            alt="quiz-mobile-screenshot"
+          />
+        </section>
+      </div>
+      <div id="app2">
+        <h3 id="currency-app" class="each-project" role="project2">
+          <a href="https://aubreyyoder.github.io/">Show Me the Money :</a>
+        </h3>
+        <p id="currency-app-description" role="app-description">
+          This is a currency conversion app developed to allow users to convert
+          money from one currency to another. The user inputs their own amount
+          to convert. When given the converted amount, the user has the option
+          to start over or look up a place to convert their money. Using
+          multiple API's, the user converts and searches for banks nearby their
+          given location.<br /><br />
+          <a href="https://github.com/aubreyyoder/aubreyyoder.github.io"
+            >LINK TO GITHUB REPO</a
+          >
+        </p>
+        <section class="screenshots">
+          <img
+            id="currency-app-mobile"
+            class="img-screenshots"
+            src="https://lh3.googleusercontent.com/JR4bNgjWjl4mkTfo-Red5xIBrRhFPNUH7tNyfSHAUgVYcIelts1-SLuPJmvDEFbqYCCLOKhcGrPcaGjv33z666aa_pLjAteah8GgKuo72ttS3r4L5fHdyMNSPGJEgOgyvvuo2iS7R-4Rw2lkXikX636mqQ1jW9bjtnBBwtGB_L0D5GT4ME32iNKJIJM02Ol6qipMsOUVZg_RTeq7E2Ld_lRZByV7_m1eo2jkufRNaZRztB3Xxb_owOnBHUdMx2YcM_2sRbSBjGmUCwRuclaw0aevH7dpnOlGjfNpLJkJ4MbKvk2ZJ2LCwdM0wIJ00Pm-3zzC-3bmJavIWm1Ea3MJGU3JVDHnf4AOrr35y01Y1iFy12ob3DA6VaTPdcZbaxYJ4KPXdEDvREqNVcIsdEitdL_Z1nxYdP6g8Om1KvLvY5_zzGpXQtR8y8m_zwmlCDe-f2OpzRkJmzGsKwAZ4GiG20NJDyKD68UlQAa4OJnTLpL4Wol8tRtzhNA6U9KcsBJOhtCPogzZ0Kq5DgHmVplYYjNtEIdtPHHnNjB70sksaHgjc6qXK8bWSA1cs1nBDNNzZKl5yRQYvteA0pU6Of1_7IygEF699F3yTqSShCZZ6uhmJZnh_5-g_5yst2cBsEJr4E3D9hWAw7W-3tOBuwKInR3s5RjgZw=w2160-h1136-no"
+            alt="currency-mobile-screenshot"
+          />
+        </section>
+      </div>
+    </div>
+    <footer class="contact">
+      CONTACT ME:
+      <a href="mailto:aubreyyoder@gmail.com" id="email" type="button">EMAIL</a>
+      <a href="https://github.com/aubreyyoder" id="github" type="button"
+        >GITHUB</a
+      >
+      <a
+        href="https://www.linkedin.com/in/aubrey-yoder"
+        id="linkedin"
+        type="button"
+        >LINKEDIN</a
+      >
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
 </html>
