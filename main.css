@@ -90,7 +90,7 @@ button:hover, a:hover {
     top: 120px;
 }
 
-#bio, .each-project, #quiz-app-description {
+#bio, .each-project, #app-description {
     padding: 60px;
   }
   
@@ -100,7 +100,7 @@ button:hover, a:hover {
     padding: 10px;
 }
   
-#quiz-app-mobile {  
+#quiz-app-mobile, #currency-app-mobile {  
     height: 50%;
     width: 50%;
     top: 100px;
